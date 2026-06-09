@@ -2,7 +2,21 @@
 
 This repository contains the complete setup, configuration, and troubleshooting documentation for an Enterprise Infrastructure Monitoring Lab using Docker Containers on a CentOS/Linux environment.
 
----
+<img width="1307" height="678" alt="image" src="https://github.com/user-attachments/assets/69293617-7cd5-41e5-a299-dabfcd926c59" />
+Architecture diagram
+Linux Server
+     |
+Docker Compose
+     |
++-------------------+
+| Zabbix Server     |
+| MySQL Database    |
+| Zabbix Web UI     |
+| Zabbix Agent 2    |
++-------------------+
+     |
+Monitored Host
+
 
 ##  Project Architecture
 The architecture is fully containerized using Docker and consists of the following components:
@@ -27,7 +41,7 @@ bash
 *** Check Live Container Status ***
 #docker ps
 (Lists all currently active and running Docker containers along with their status, uptime, and exposed network ports.)
-<img width="1330" height="678" alt="image" src="https://github.com/user-attachments/assets/1a479590-2fa8-46f2-a4d6-464a0e1d518d" />
+
 
 
 
