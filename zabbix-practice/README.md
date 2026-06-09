@@ -17,7 +17,7 @@ The architecture is fully containerized using Docker and consists of the followi
 
 ### 1. Initialize and Start Containers
 bash
-docker-compose up -d
+#docker-compose up -d
 
 *** Enable Auto-Start Policy ***
 #docker update --restart always zabbix-db zabbix-server zabbix-web target-server-agent
@@ -27,5 +27,7 @@ docker-compose up -d
 *** Check Live Container Status ***
 #docker ps
 (Lists all currently active and running Docker containers along with their status, uptime, and exposed network ports.)
+<img width="1330" height="678" alt="image" src="https://github.com/user-attachments/assets/1a479590-2fa8-46f2-a4d6-464a0e1d518d" />
+
 
 
